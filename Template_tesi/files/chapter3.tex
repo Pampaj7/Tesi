@@ -1,0 +1,21 @@
+\chapter{Apprendimento democratizzato: Progettazione}\label{ch:chapter2}
+In questo elaborato,studiamo un nuovo algoritmo di apprendimento distribuito che consiste in: raggruppamento gerarchico, generalizzazione gerarchica e meccanismi di apprendimento con un compito di apprendimento comune per tutti gli agenti di apprendimento.
+
+\begin{itemize}
+
+\item Meccanismo di raggruppamento gerarchico\\
+
+Per costruire la struttura gerarchica del sistema Dem-AI con gruppi di apprendimento specializzati pertinenti, adottiamo l'algoritmo di clustering gerarchico agglomerativo ovvero l'implementazione del dendrogramma da scikit-learn, basato sulla somiglianza o non somiglianza di tutti gli agenti di apprendimento.
+Il metodo del dendrogramma viene utilizzato per esaminare le relazioni di somiglianza tra gli individui ed è spesso utilizzato per l'analisi dei cluster in molti campi di ricerca. Durante l'implementazione, la topologia ad albero del dendrogramma viene costruita unendo le coppie di agenti o cluster che hanno la distanza minore tra loro, seguendo lo schema bottom-up. Di conseguenza, la distanza misurata è considerata come le differenze nelle caratteristiche degli agenti di apprendimento (ad esempio, parametri del modello locale o gradienti della funzione dell'obiettivo di apprendimento). Poiché otteniamo prestazioni simili implementando il clustering basato su parametri o gradienti del modello, in quanto segue presentiamo solo un meccanismo di clustering utilizzando i parametri del modello locale. \\
+Dati i parametri del modello locale $\omega_n$ = ($\omega_{n,1}$,..., $\omega_{n,M}$) dell'agente di apprendimento \textsl{n}, dove \textsl{M} è il numero di parametri di apprendimento, la misura della distanza tra due agenti $\phi_{n,l}$ è derivata in base al modello euclideo distanza come $\phi_{n,l}$ =  ||$\omega_n$ - $\omega_l$|| 
+Inoltre, consideriamo il metodo del collegamento medio per il calcolo della distanza tra un agente e un cluster utilizzando la distanza euclidea tra i parametri del modello dell'agente e i parametri del modello medio dei membri del cluster.
+Di conseguenza, la struttura gerarchica ad albero è sotto forma di un albero binario con molti livelli. Richiederà quindi, costi computazionali e di archiviazione inutilmente elevati per mantenere i dati ed è un modo inefficiente per mantenere un gran numero di modelli generalizzati di basso livello per piccoli gruppi. Di conseguenza, manteniamo solo i K livelli superiori nella struttura ad albero e scartiamo la struttura di livello inferiore. Pertanto, al livello K più alto, il sistema potrebbe avere due grandi gruppi che hanno un gran numero di agenti di apprendimento.
+
+
+\item Generalizzazione gerarchica e meccanismo di apprendimento\\
+
+La struttura gerarchica di livello K emerge attraverso il clustering agglomerante. Di conseguenza, il sistema costruisce K livelli della generalizzazione, come in Figura. Pertanto, proponiamo problemi di apprendimento generalizzato gerarchico (HGLP) per costruire questi modelli generalizzati per gruppi specializzati in una forma ricorsiva, a partire dalla costruzione del modello globale $w^K$ al livello superiore \textsl{K} come segue. \\
+Problema HGLP al livello K. \\
+$\min_{W^K}L^K$ = $\sum_{k=1}^N k^2$
+
+\end{itemize}

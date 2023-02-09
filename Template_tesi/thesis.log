@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.3)  8 FEB 2023 17:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.3)  9 FEB 2023 18:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -471,9 +471,9 @@ Package: cite 2015/02/27  v 5.5
 )
 \c@teorema=\count312
 \c@definizione=\count313
-Package hyperref Info: Option `plainpages' set `false' on input line 74.
-Package hyperref Info: Option `breaklinks' set `true' on input line 74.
-Package hyperref Info: Option `colorlinks' set `false' on input line 74.
+Package hyperref Info: Option `plainpages' set `false' on input line 75.
+Package hyperref Info: Option `breaklinks' set `true' on input line 75.
+Package hyperref Info: Option `colorlinks' set `false' on input line 75.
 
 (C:\Users\leona\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
@@ -481,29 +481,33 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count314
 \l__pdf_internal_box=\box68
 ) (thesis.aux (files/introduction.aux) (files/chapter1.aux)
-(files/chapter2.aux) (files/conclusions.aux))
+(files/chapter2.aux) (files/chapter3.aux
+
+LaTeX Warning: Label `ch:chapter2' multiply defined.
+
+) (files/conclusions.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Info: Redefining \it@ocap on input line 76.
-LaTeX Info: Redefining \it@ccap on input line 76.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Info: Redefining \it@ocap on input line 77.
+LaTeX Info: Redefining \it@ccap on input line 77.
 
 (C:\Users\leona\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -530,16 +534,16 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 76.
+Package hyperref Info: Link coloring OFF on input line 77.
  (thesis.out) (thesis.out)
 \@outlinefile=\write3
 \openout3 = `thesis.out'.
 
 \c@lstlisting=\count321
-<./img/stemma.pdf, id=22, 1622.06pt x 1673.45195pt>
+<./img/stemma.pdf, id=26, 1622.06pt x 1673.45195pt>
 File: ./img/stemma.pdf Graphic file (type pdf)
 <use ./img/stemma.pdf>
-Package pdftex.def Info: ./img/stemma.pdf  used on input line 84.
+Package pdftex.def Info: ./img/stemma.pdf  used on input line 85.
 (pdftex.def)             Requested size: 82.71654pt x 85.35826pt.
  [1
 
@@ -554,7 +558,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.89 \cleardoublepage
+l.90 \cleardoublepage
                       [1
 
 ]
@@ -565,7 +569,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.104 \include{files/introduction}
+l.105 \include{files/introduction}
                                    [1
 
 
@@ -587,17 +591,64 @@ Capitolo 1.
 
  (files/chapter2.tex
 Capitolo 2.
+<DemIA.png, id=68, 1387.43344pt x 511.9125pt>
+File: DemIA.png Graphic file (type png)
+<use DemIA.png>
+Package pdftex.def Info: DemIA.png  used on input line 5.
+(pdftex.def)             Requested size: 346.85751pt x 127.97781pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--6
+
+ []
+
 [3
 
 
 
 
-] [4] [5]) [6]
+] [4 <./DemIA.png>] [5]) [6]
+\openout2 = `files/chapter3.aux'.
+
+ (files/chapter3.tex
+Capitolo 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
+
+(C:\Users\leona\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
+
+
+(C:\Users\leona\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 10
+.
+
+(C:\Users\leona\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+[7
+
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+[8]) [9]
 \openout2 = `files/conclusions.aux'.
 
  (files/conclusions.tex
-Capitolo 3.
-) [7
+Capitolo 4.
+) [10
 
 
 
@@ -606,27 +657,27 @@ Capitolo 3.
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [8
+) [11
 
 
 
 ] (thesis.aux (files/introduction.aux) (files/chapter1.aux)
-(files/chapter2.aux) (files/conclusions.aux))
+(files/chapter2.aux) (files/chapter3.aux) (files/conclusions.aux))
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: BDDA8DBBBEC6DA66811BF3BB15F098E2;771.
+(rerunfilecheck)             Checksum: 81D06917B7C6E0F232C5251A94EDCCE6;1035.
  )
 (\end occurred when \ifx on line 2 was incomplete) 
 Here is how much of TeX's memory you used:
- 14306 strings out of 476375
- 228613 string characters out of 5788976
- 1858299 words of memory out of 5000000
- 34445 multiletter control sequences out of 15000+600000
- 522634 words of font info for 47 fonts, out of 8000000 for 9000
+ 14409 strings out of 476375
+ 230867 string characters out of 5788976
+ 1857299 words of memory out of 5000000
+ 34512 multiletter control sequences out of 15000+600000
+ 527475 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,6n,90p,1681b,521s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,6n,90p,1681b,527s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\leona\AppData\Loca
 l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\leona\AppDat
 a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsl1200.pk> <C:\Users\leona\
@@ -638,10 +689,15 @@ Users\leona\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk
 \ecrm1200.pk> <C:\Users\leona\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
 dpi600\ecrm1095.pk> <C:\Users\leona\AppData\Local\MiKTeX\fonts/pk/ljfour/jknapp
 en/ec/dpi600\eccc1200.pk> <C:\Users\leona\AppData\Local\MiKTeX\fonts/pk/ljfour/
-jknappen/ec/dpi600\eccc1728.pk>
-Output written on thesis.pdf (11 pages, 499462 bytes).
+jknappen/ec/dpi600\eccc1728.pk><C:/Users/leona/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/leona/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/leona/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/leona/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/leona
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+Output written on thesis.pdf (14 pages, 1313518 bytes).
 PDF statistics:
- 341 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 404 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
+ 59 words of extra memory for PDF output out of 10000 (max. 10000000)
 
