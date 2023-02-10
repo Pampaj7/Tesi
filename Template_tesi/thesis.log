@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.3)  9 FEB 2023 18:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.3)  10 FEB 2023 17:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -643,12 +643,77 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-[8]) [9]
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--32
+
+ []
+
+[8] [9] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 33--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--37
+
+ []
+
+) [11]
 \openout2 = `files/conclusions.aux'.
 
  (files/conclusions.tex
 Capitolo 4.
-) [10
+) [12
 
 
 
@@ -657,7 +722,7 @@ Capitolo 4.
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [11
+) [13
 
 
 
@@ -671,13 +736,13 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
  )
 (\end occurred when \ifx on line 2 was incomplete) 
 Here is how much of TeX's memory you used:
- 14409 strings out of 476375
- 230867 string characters out of 5788976
- 1857299 words of memory out of 5000000
+ 14411 strings out of 476375
+ 230881 string characters out of 5788976
+ 1865299 words of memory out of 5000000
  34512 multiletter control sequences out of 15000+600000
  527475 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,6n,90p,1681b,527s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,7n,90p,1681b,527s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\leona\AppData\Loca
 l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\leona\AppDat
 a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsl1200.pk> <C:\Users\leona\
@@ -690,14 +755,20 @@ Users\leona\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk
 dpi600\ecrm1095.pk> <C:\Users\leona\AppData\Local\MiKTeX\fonts/pk/ljfour/jknapp
 en/ec/dpi600\eccc1200.pk> <C:\Users\leona\AppData\Local\MiKTeX\fonts/pk/ljfour/
 jknappen/ec/dpi600\eccc1728.pk><C:/Users/leona/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/leona/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/leona/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/leona/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/leona
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on thesis.pdf (14 pages, 1313518 bytes).
+nts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/leona/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/leona/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/leona/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/leon
+a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Us
+ers/leona/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb
+><C:/Users/leona/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mr8.pfb><C:/Users/leona/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb><C:/Users/leona/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmsy6.pfb><C:/Users/leona/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmsy8.pfb>
+Output written on thesis.pdf (16 pages, 1372181 bytes).
 PDF statistics:
- 404 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
+ 441 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
  59 words of extra memory for PDF output out of 10000 (max. 10000000)
 
