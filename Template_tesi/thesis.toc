@@ -4,5 +4,5 @@
 \contentsline {chapter}{\numberline {1}Algoritmo di apprendimento federato}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Apprendimento democratizzato: concetti}{3}{chapter.2}%
 \contentsline {chapter}{\numberline {3}Apprendimento democratizzato: Progettazione}{7}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Conclusioni}{12}{chapter.4}%
-\contentsline {chapter}{Bibliografia}{13}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Conclusioni}{16}{chapter.4}%
+\contentsline {chapter}{Bibliografia}{17}{chapter.4}%

@@ -33,10 +33,40 @@ $\min_{W^{(K)}}\sum_{j\in S_{i,K}} \frac{N_{g,j}^{(K-1)}}{N_g^{(K)}}(L_j^{(K-1)}
 Dove $W^{(K)} = (w_i^{(k)},w_1^{(k-1)},...,w_{|s_{i,k}|}^{(k-1)}),N_{g,i}^{(k)}$ è il numero di agenti di apprendimento del gruppo i, e $w^{(k+1)}$ è il modello di apprendimento del gruppo superiore al livello k + 1 a cui appartiene il gruppo i . Poiché esiste accoppiamento tra i livelli superiore e inferiore, e il set di dati di addestramento è decentralizzato, il problema di apprendimento (4) del gruppo i al livello k non può essere risolto direttamente.Quindi, analogamente a FL, la perdita di apprendimento del gruppo può essere distribuita tra i membri del gruppo [2]. Di conseguenza, l'obiettivo del problema di gruppo ha i restanti termini prossimali che costringono i modelli di apprendimento nei diversi livelli ad essere vicini l'uno all'altro. Pertanto, il modello di apprendimento è costruito con il modello del gruppo superiore a livello k + 1 e i membri del gruppo a livello k - 1 modellano risolvendo il seguente problema:\\
 \\
 $\min_{W}\sum_{j\in S_{i,K}} \frac{\mu_kN_{g,j}^{(K-1)}}{N_g^{(K)}}||w_j^{(k-1)}-w||^2+\frac{\mu_{K+1}N_{g,i}^{(k)}}{N_g^{(K)}}||w^{(K+1)}-w||^2$ \hspace{1cm} (5)\\\\\\
-La forma chiusa della soluzione ottima del problema (5) può essere facilmente derivata impostando il gradiente a zero come segue:\\
+La forma chiusa della soluzione ottima del problema (5) può essere facilmente derivata impostando il gradiente a zero come segue:\\\\
+$\sum_{j\in S_{i,K}}\mu_kN_{g,j}^{(k-1)}(w_j^{(k-1)}-w^*)=\mu_{k+1}N_{g,i}^{(k)}(w^*-w^{(k+1)})$\\
+\\Pertanto, il modello di apprendimento del gruppo i può essere aggiornato come\\\\
+$w_i^{(k)}=\alpha w^{(k+1)}+(1-\alpha)\sum_{j\in S_{(i,k)}}\frac{N_{g,j}^{(k)}}{N_{g,i}^{(k)}}w_j^{(k-1)}$ \hspace{1cm} (6)\\\\
 
+Dove $\alpha=\mu_{(k+1)}/(\mu_k+\mu_{(k+1)})$. Il parametro di compromesso $\alpha$ può essere regolato successivamente negli esperimenti per controllare il contributo dei modelli di apprendimento dei membri del gruppo superiore e del gruppo. Data la soluzione in forma chiusa (6), l'accoppiamento tra diversi livelli
+può essere approssimato suddividendo gli aggiornamenti del modello a ciascun livello tramite lo schema bottom-top e poi top bottom. In Fig. 3, mostriamo l'illustrazione degli aggiornamenti gerarchici proposti. In particolare, i gruppi e i membri inferiori vengono aggiornati prima dei gruppi superiori. E poi, i gruppi superiori aggiornati trasmettono i parametri ai loro membri del gruppo per completare un ciclo di aggiornamento.
+Al livello più basso, ciascun agente di apprendimento \textsl{n} può effettivamente eseguire il processo di addestramento locale per adattare i propri dati privati al problema di apprendimento personalizzato utilizzando gli ultimi modelli gerarchici generalizzati come segue.\\
+PLP al livello 0\\\\
+$w_n^{(0)}=arg_{w\in W}min L_n^{(0)}(w|D_n^{(0)})+\frac{\mu}{2}||w-w_n^{(1)}||^2$\hspace{1cm} (7)\\\\
+\includegraphics[scale=0.3]{BottomUPDOWN}\\
+Dove $L_n^{(0)}$  è la funzione di perdita di apprendimento personalizzata per il compito di apprendimento dato il suo set di dati personalizzato $D_n^{(0)}$, $N_{(n,g)}^{(k)}$ è il numero di agenti di apprendimento del gruppo di livello-k a cui appartiene l'agente \textsl{n}.
+Risolvendo il problema PLP, l'agente di apprendimento può aggiornare il proprio modello personalizzato $w_n^{(0)}$ appartenente al set di modelli di deep learning parametrizzato a W. In questo livello personalizzato, il numero di membri del gruppo è 1.
 
-
-
-
+\item Algoritmo di apprendimento democratizzato.\\
+Ispirati dagli algoritmi FedAvg e FedProx, adottiamo la
+suddetta analisi ricorsiva e il meccanismo di clustering gerarchico per sviluppare un nuovo algoritmo di apprendimento democratizzato, chiamato DemLearn. I dettagli sono presentati di seguito. Ogni agente \textsl{n} usa il modello del gruppo superiore al livello 1 (cioè, $w_{(n,t)}^{(1)}$) come modello di apprendimento iniziale. Successivamente, l'agente risolve iterativamente il problema PLP nell'equazione (8) in base al metodo del gradiente.
+Il modello client aggiornato verrà inviato al server centrale per eseguire il clustering gerarchico e l'aggiornamento dal livello 1 generalizzato al livello K. Dopo ogni giro globale $\tau$, la struttura gerarchica viene ricostruita in base ai cambiamenti nel modello di apprendimento personalizzato degli agenti. I modelli di apprendimento generalizzato dei gruppi vengono aggiornati, rispettivamente, in modalità bottom-top e top-bottom, seguendo (9) e (10) come approssimazione della soluzione in forma chiusa (6). Ciò consente ai sottogruppi di livello inferiore di contribuire con le proprie conoscenze all'aggiornamento del modello di gruppo. In cambio, ricevono (e incorporano) la migliore conoscenza generalizzata dai gruppi superiori che accresce la capacità di generalizzazione dei loro modelli di apprendimento locali. Inoltre, introduciamo un trucco di amplificazione nell'aggiornamento dal basso verso l'alto per i primi cinque round per accelerare la fase iniziale del processo di apprendimento. Di conseguenza, l'aggiornamento dai membri del gruppo [cioè, $w_{t+1}^{(k)}$ in (9)] viene moltiplicato con una costante di 1,15 nei primi cinque round.\\\\
 \end{itemize}
+
+\begin{algorithm}[H]
+ \KwData{this text}
+ \KwResult{how to write algorithm with \LaTeX2e }
+ initialization\;
+ \While{not at end of this document}{
+  read current\;
+  \eIf{understand}{
+   go to next section\;
+   current section becomes this one\;
+   }{
+   go back to the beginning of current section\;
+  }
+ }
+ \caption{How to write algorithms}
+\end{algorithm}
+
+
