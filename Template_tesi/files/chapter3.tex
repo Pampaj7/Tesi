@@ -1,4 +1,4 @@
-\chapter{Apprendimento democratizzato: Progettazione}\label{ch:chapter2}
+\chapter{Apprendimento democratizzato: Progettazione}\label{ch:chapter3}
 In questo elaborato,studiamo un nuovo algoritmo di apprendimento distribuito che consiste in: raggruppamento gerarchico, generalizzazione gerarchica e meccanismi di apprendimento con un compito di apprendimento comune per tutti gli agenti di apprendimento.
 
 \begin{itemize}
@@ -52,21 +52,5 @@ Ispirati dagli algoritmi FedAvg e FedProx, adottiamo la
 suddetta analisi ricorsiva e il meccanismo di clustering gerarchico per sviluppare un nuovo algoritmo di apprendimento democratizzato, chiamato DemLearn. I dettagli sono presentati di seguito. Ogni agente \textsl{n} usa il modello del gruppo superiore al livello 1 (cioè, $w_{(n,t)}^{(1)}$) come modello di apprendimento iniziale. Successivamente, l'agente risolve iterativamente il problema PLP nell'equazione (8) in base al metodo del gradiente.
 Il modello client aggiornato verrà inviato al server centrale per eseguire il clustering gerarchico e l'aggiornamento dal livello 1 generalizzato al livello K. Dopo ogni giro globale $\tau$, la struttura gerarchica viene ricostruita in base ai cambiamenti nel modello di apprendimento personalizzato degli agenti. I modelli di apprendimento generalizzato dei gruppi vengono aggiornati, rispettivamente, in modalità bottom-top e top-bottom, seguendo (9) e (10) come approssimazione della soluzione in forma chiusa (6). Ciò consente ai sottogruppi di livello inferiore di contribuire con le proprie conoscenze all'aggiornamento del modello di gruppo. In cambio, ricevono (e incorporano) la migliore conoscenza generalizzata dai gruppi superiori che accresce la capacità di generalizzazione dei loro modelli di apprendimento locali. Inoltre, introduciamo un trucco di amplificazione nell'aggiornamento dal basso verso l'alto per i primi cinque round per accelerare la fase iniziale del processo di apprendimento. Di conseguenza, l'aggiornamento dai membri del gruppo [cioè, $w_{t+1}^{(k)}$ in (9)] viene moltiplicato con una costante di 1,15 nei primi cinque round.\\\\
 \end{itemize}
-
-\begin{algorithm}[H]
- \KwData{this text}
- \KwResult{how to write algorithm with \LaTeX2e }
- initialization\;
- \While{not at end of this document}{
-  read current\;
-  \eIf{understand}{
-   go to next section\;
-   current section becomes this one\;
-   }{
-   go back to the beginning of current section\;
-  }
- }
- \caption{How to write algorithms}
-\end{algorithm}
 
 
