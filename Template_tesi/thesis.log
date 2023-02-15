@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.3)  13 FEB 2023 17:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.3)  14 FEB 2023 17:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -787,93 +787,127 @@ File: AlgoStructureComp.png Graphic file (type png)
 <use AlgoStructureComp.png>
 Package pdftex.def Info: AlgoStructureComp.png  used on input line 28.
 (pdftex.def)             Requested size: 407.27055pt x 254.8264pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--29
+<DemAlpha.png, id=149, 1022.31938pt x 610.53094pt>
+File: DemAlpha.png Graphic file (type png)
+<use DemAlpha.png>
+Package pdftex.def Info: DemAlpha.png  used on input line 30.
+(pdftex.def)             Requested size: 408.9205pt x 244.20804pt.
+<ClusteringLast.png, id=150, 854.44218pt x 604.50844pt>
+File: ClusteringLast.png Graphic file (type png)
+<use ClusteringLast.png>
+Package pdftex.def Info: ClusteringLast.png  used on input line 37.
+(pdftex.def)             Requested size: 341.77081pt x 241.79909pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 16--114
 
  []
 
 
-Overfull \hbox (68.00302pt too wide) in paragraph at lines 16--29
+Overfull \hbox (68.00302pt too wide) in paragraph at lines 16--114
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--29
+Underfull \hbox (badness 10000) in paragraph at lines 16--114
 
  []
 
 
-Overfull \hbox (69.5086pt too wide) in paragraph at lines 16--29
+Overfull \hbox (69.5086pt too wide) in paragraph at lines 16--114
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--29
+Underfull \hbox (badness 10000) in paragraph at lines 16--114
 
  []
 
 
-Overfull \hbox (61.6795pt too wide) in paragraph at lines 16--29
+Overfull \hbox (61.6795pt too wide) in paragraph at lines 16--114
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--29
+Underfull \hbox (badness 10000) in paragraph at lines 16--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--29
+Underfull \hbox (badness 10000) in paragraph at lines 16--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--29
+Underfull \hbox (badness 10000) in paragraph at lines 16--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--29
+Underfull \hbox (badness 10000) in paragraph at lines 16--114
 
  []
 
 
-Overfull \hbox (17.27055pt too wide) in paragraph at lines 16--29
+Overfull \hbox (17.27055pt too wide) in paragraph at lines 16--114
+[]
+ []
+
+
+Overfull \hbox (18.9205pt too wide) in paragraph at lines 16--114
 [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--114
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--114
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--114
+
  []
 
 [16] [17] [18] [19 <./DemLearnMNIST.png> <./DemLearnFashionMNIST.png>] [20 <./D
-emLearnFederatedExtMNIST.png> <./cifar10Comparison.png>]) [21 <./AlgoStructureC
-omp.png>]
+emLearnFederatedExtMNIST.png> <./cifar10Comparison.png>] [21 <./AlgoStructureCo
+mp.png>] [22 <./DemAlpha.png>] [23] [24 <./ClusteringLast.png>] [25]
 \openout2 = `files/conclusions.aux'.
 
- (files/conclusions.tex
+
+(files/conclusions.tex
 Capitolo 5.
-) [22
+) [26
 
 
 
 
-] (thesis.bbl
+] [27] (thesis.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [23
+) [28
 
 
 
 ] (thesis.aux (files/introduction.aux) (files/chapter1.aux)
 (files/chapter2.aux) (files/chapter3.aux) (files/chapter4.aux)
 (files/conclusions.aux))
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 689349CC43D4EB7B4384E68E07BEF148;1345.
  )
 (\end occurred when \ifx on line 2 was incomplete) 
 Here is how much of TeX's memory you used:
- 14525 strings out of 476375
- 233755 string characters out of 5788976
- 1868299 words of memory out of 5000000
- 34599 multiletter control sequences out of 15000+600000
+ 14549 strings out of 476375
+ 234177 string characters out of 5788976
+ 1881299 words of memory out of 5000000
+ 34618 multiletter control sequences out of 15000+600000
  528251 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,15n,90p,1840b,533s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -891,19 +925,20 @@ en/ec/dpi600\ecrm1095.pk> <C:\Users\leona\AppData\Local\MiKTeX\fonts/pk/ljfour/
 jknappen/ec/dpi600\eccc1200.pk> <C:\Users\leona\AppData\Local\MiKTeX\fonts/pk/l
 jfour/jknappen/ec/dpi600\eccc1728.pk><C:/Users/leona/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/leona/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/leona/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/leona/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/User
-s/leona/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-<C:/Users/leona/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-r6.pfb><C:/Users/leona/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmr8.pfb><C:/Users/leona/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb><C:/Users/leona/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmsy6.pfb><C:/Users/leona/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on thesis.pdf (26 pages, 2220048 bytes).
+grams/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/leona/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/l
+eona/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:
+/Users/leona/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8
+.pfb><C:/Users/leona/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmr12.pfb><C:/Users/leona/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmr6.pfb><C:/Users/leona/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmr8.pfb><C:/Users/leona/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/leona/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/leona/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on thesis.pdf (31 pages, 3075043 bytes).
 PDF statistics:
- 549 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 500000)
- 97 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 582 PDF objects out of 1000 (max. 8388607)
+ 46 named destinations out of 1000 (max. 500000)
+ 107 words of extra memory for PDF output out of 10000 (max. 10000000)
 
