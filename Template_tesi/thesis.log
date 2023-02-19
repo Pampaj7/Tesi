@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.3)  17 FEB 2023 17:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.3)  18 FEB 2023 13:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -979,8 +979,11 @@ Capitolo 6.
 ] (thesis.aux (files/introduction.aux) (files/chapter1.aux)
 (files/chapter2.aux) (files/chapter3.aux) (files/chapter4.aux)
 (files/conclusions.aux) (files/biblio.aux))
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 05B75CD29FC1D7589C8DCF1AAD9B51BA;2625.
+(rerunfilecheck)             Checksum: D4E0EA25CE5FDE6C63C85E701511BA2D;2481.
  )
 (\end occurred when \ifx on line 2 was incomplete) 
 Here is how much of TeX's memory you used:
@@ -1019,7 +1022,7 @@ ype1/public/amsfonts/cm/cmr12.pfb><C:/Users/leona/AppData/Local/Programs/MiKTeX
 rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/leona/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/leon
 a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on thesis.pdf (32 pages, 3121165 bytes).
+Output written on thesis.pdf (32 pages, 3120977 bytes).
 PDF statistics:
  724 PDF objects out of 1000 (max. 8388607)
  66 named destinations out of 1000 (max. 500000)

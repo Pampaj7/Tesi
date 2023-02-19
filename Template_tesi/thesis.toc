@@ -7,7 +7,7 @@
 \contentsline {section}{\numberline {3.1}Meccanismo di raggruppamento gerarchico}{7}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Generalizzazione gerarchica e meccanismo di apprendimento}{8}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Algoritmo di apprendimento democratizzato.}{13}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Apprendimento democratizzato: Algoritmo e risultati}{15}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Algoritmo democratizzato}{15}{chapter.4}%
 \contentsline {section}{\numberline {4.1}DemLearn}{16}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Esperimenti}{18}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Variazioni del parametro $\alpha $}{22}{section.4.3}%
